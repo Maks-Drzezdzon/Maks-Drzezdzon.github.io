@@ -45,7 +45,7 @@ main {
   width: 100%;
 }
 
-.nav-item:last-child {
+.nav-item:nth-last-child(2) {
   margin-top: auto;
 }
 
@@ -391,16 +391,6 @@ p {
     font-size: 15px;
   }
 }
-
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 8px;
-  }
-}
-
 @media only screen and (max-width: 100px) {
   #intro {
     padding: 0 10px;
@@ -416,15 +406,6 @@ p {
   }
   .btn {
     font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 4px;
   }
 }
 /*tmp styles*/
